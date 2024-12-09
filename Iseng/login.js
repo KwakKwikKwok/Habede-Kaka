@@ -19,12 +19,12 @@ document.addEventListener("DOMContentLoaded", function() {
   
     homeLink.addEventListener("click", (e) => {
       e.preventDefault();
-      alert("Maaf, untuk saat ini halaman 'Home' masih belum tersedia.\n" + "Web ini dibuat dengan sangat sederhana dan masih belum lengkap, maaf atas ketidaknyamanan yang ditimbulkan\n" + "-Kenzie B");
+      alert("Jgn di teken dlu kak, blom bikin halaman redirect 😔👉👈\n" + "-Knz");
     })
   
     aboutLink.addEventListener("click", (e) => {
       e.preventDefault();
-      alert("Maaf, untuk saat ini halaman 'About' masih belum tersedia.\n" + "Web ini dibuat dengan sangat sederhana dan masih belum lengkap, maaf atas ketidaknyamanan yang ditimbulkan\n" + "-Kenzie B");
+      alert("Jgn di teken dlu kak, blom bikin halaman redirect 😔👉👈\n" + "-Knz");
     })
   
     document.getElementById("loginBtn").addEventListener("click", (e) => {
