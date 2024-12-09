@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style_login.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="image/logo.jpeg" />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav-logo">
+        <p>Iseng.</p>
+      </div>
+      <div class="nav-menu">
+        <ul>
+          <li><a href="#" class="link" id="home-link">Home</a></li>
+          <li><a href="#" class="link" id="about-link">About</a></li>
+        </ul>
+      </div>
+      <div class="nav-button">
+        <button class="white-btn" id="loginBtn">Sign In</button>
+      </div>
+    </nav>
+
+    <!---------------------------- Form box ------------------------------>
+    <div class="form-box">
+      <!--------------------- log in form ----------------------------->
+      <div class="login-container" id="login"></div>
+      <div class="top">
+        <header>Sign In</header>
+      </div>
+      <div class="two-forms">
+        <div class="input-box">
+          <input
+            type="text"
+            class="input-field"
+            placeholder="Username"
+            name="username"
+          />
+          <i class="bx bx-user"></i>
+        </div>
+        <div class="input-box">
+          <input
+            type="password"
+            class="input-field"
+            placeholder="Password"
+            name="password"
+          />
+          <i class="bx bx-lock-alt"></i>
+        </div>
+        <div class="input-box">
+          <input type="submit" class="submit" placeholder="Sign In" />
+        </div>
+      </div>
+    </div>
+    <script src="./login.js"></script>
+  </body>
+</html>
